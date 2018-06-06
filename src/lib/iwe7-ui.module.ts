@@ -1,8 +1,10 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 export const NgModules = [
   ReactiveFormsModule,
-  FormsModule
+  FormsModule,
+  HttpClientModule
 ];
 import { Iwe7BoxModule } from 'iwe7-box';
 import { Iwe7SquareModule } from 'iwe7-square';
