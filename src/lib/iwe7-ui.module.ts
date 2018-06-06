@@ -35,8 +35,10 @@ export const MaterialModules = [
 ];
 
 import { ObserversModule } from '@angular/cdk/observers';
+import { BidiModule } from '@angular/cdk/bidi';
 export const CDKModules = [
-  ObserversModule
+  ObserversModule,
+  BidiModule
 ];
 
 @NgModule({
