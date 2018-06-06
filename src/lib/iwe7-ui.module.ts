@@ -36,7 +36,8 @@ import {
   MatTreeModule,
   MatSnackBarModule,
   MatBottomSheetModule,
-  MatButtonToggleModule
+  MatButtonToggleModule,
+  MatChipsModule
 } from '@angular/material';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatFormFieldModule } from '@angular/material/form-field';
@@ -63,7 +64,8 @@ export const MaterialModules = [
   MatTreeModule,
   MatSnackBarModule,
   MatBottomSheetModule,
-  MatButtonToggleModule
+  MatButtonToggleModule,
+  MatChipsModule
 ];
 
 import { ObserversModule } from '@angular/cdk/observers';
