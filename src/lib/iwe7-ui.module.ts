@@ -23,7 +23,8 @@ import {
   MatTooltipModule,
   MatCardModule,
   MatDividerModule,
-  MatTabsModule
+  MatTabsModule,
+  MatToolbarModule
 } from '@angular/material';
 
 export const MaterialModules = [
@@ -35,7 +36,8 @@ export const MaterialModules = [
   MatTooltipModule,
   MatCardModule,
   MatDividerModule,
-  MatTabsModule
+  MatTabsModule,
+  MatToolbarModule
 ];
 
 import { ObserversModule } from '@angular/cdk/observers';
