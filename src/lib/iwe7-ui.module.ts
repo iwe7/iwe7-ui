@@ -6,7 +6,13 @@ import { Iwe7FlexBoxModule } from 'iwe7-flex';
 import { Iwe7AbcModule } from 'iwe7-abc';
 
 import { NgModule } from '@angular/core';
-import { MatDialogModule, MatIconModule, MatButtonModule } from '@angular/material';
+import {
+  MatDialogModule, MatIconModule,
+  MatButtonModule, MatListModule,
+  MatGridListModule, MatBadgeModule,
+  MatTooltipModule, MatCardModule,
+  MatDividerModule
+} from '@angular/material';
 
 @NgModule({
   exports: [
@@ -16,9 +22,14 @@ import { MatDialogModule, MatIconModule, MatButtonModule } from '@angular/materi
     Iwe7FlexBoxModule,
     Iwe7AbcModule,
     Iwe7BoxModule,
-    MatDialogModule, 
-    MatIconModule, 
-    MatButtonModule
+    MatDialogModule,
+    MatIconModule,
+    MatButtonModule,
+    MatListModule,
+    MatBadgeModule,
+    MatTooltipModule,
+    MatCardModule,
+    MatDividerModule
   ]
 })
 export class Iwe7UiModule { }
