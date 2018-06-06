@@ -39,12 +39,14 @@ import { BidiModule } from '@angular/cdk/bidi';
 import { A11yModule } from '@angular/cdk/a11y';
 import { PortalModule } from '@angular/cdk/portal';
 import { CdkTreeModule } from '@angular/cdk/tree';
+import { CdkStepperModule } from '@angular/cdk/stepper';
 export const CDKModules = [
   ObserversModule,
   BidiModule,
   A11yModule,
   PortalModule,
-  CdkTreeModule
+  CdkTreeModule,
+  CdkStepperModule
 ];
 
 @NgModule({
