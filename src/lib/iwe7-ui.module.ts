@@ -32,6 +32,7 @@ import {
   MatSidenavModule,
   MatCheckboxModule
 } from '@angular/material';
+import { MatDatepickerModule } from '@angular/material/datepicker';
 
 export const MaterialModules = [
   MatDialogModule,
@@ -45,7 +46,8 @@ export const MaterialModules = [
   MatTabsModule,
   MatToolbarModule,
   MatSidenavModule,
-  MatCheckboxModule
+  MatCheckboxModule,
+  MatDatepickerModule
 ];
 
 import { ObserversModule } from '@angular/cdk/observers';
