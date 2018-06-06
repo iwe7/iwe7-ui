@@ -37,10 +37,12 @@ export const MaterialModules = [
 import { ObserversModule } from '@angular/cdk/observers';
 import { BidiModule } from '@angular/cdk/bidi';
 import { A11yModule } from '@angular/cdk/a11y';
+import { PortalModule } from '@angular/cdk/portal';
 export const CDKModules = [
   ObserversModule,
   BidiModule,
-  A11yModule
+  A11yModule,
+  PortalModule
 ];
 
 @NgModule({
