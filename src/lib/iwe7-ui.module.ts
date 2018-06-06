@@ -54,7 +54,8 @@ export const MaterialModules = [
   MatFormFieldModule,
   MatNativeDateModule,
   MatInputModule,
-  MatStepperModule
+  MatStepperModule,
+  MatGridListModule
 ];
 
 import { ObserversModule } from '@angular/cdk/observers';
