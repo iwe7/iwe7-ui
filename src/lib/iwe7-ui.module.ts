@@ -9,12 +9,14 @@ import { Iwe7SquareModule } from 'iwe7-square';
 import { Iwe7SwiperModule } from 'iwe7-swiper';
 import { Iwe7FlexBoxModule } from 'iwe7-flex';
 import { Iwe7AbcModule } from 'iwe7-abc';
+import { Iwe7TabbarModule } from 'iwe7-tabbar';
 export const Iwe7Modules = [
   Iwe7SwiperModule,
   Iwe7SquareModule,
   Iwe7FlexBoxModule,
   Iwe7AbcModule,
   Iwe7BoxModule,
+  Iwe7TabbarModule
 ];
 
 import {
