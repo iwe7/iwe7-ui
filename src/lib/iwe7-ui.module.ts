@@ -30,10 +30,12 @@ import {
   MatTabsModule,
   MatToolbarModule,
   MatSidenavModule,
-  MatCheckboxModule
+  MatCheckboxModule,
+  MatNativeDateModule
 } from '@angular/material';
 import { MatDatepickerModule } from '@angular/material/datepicker';
-
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 export const MaterialModules = [
   MatDialogModule,
   MatIconModule,
@@ -47,7 +49,10 @@ export const MaterialModules = [
   MatToolbarModule,
   MatSidenavModule,
   MatCheckboxModule,
-  MatDatepickerModule
+  MatDatepickerModule,
+  MatFormFieldModule,
+  MatNativeDateModule,
+  MatInputModule
 ];
 
 import { ObserversModule } from '@angular/cdk/observers';
