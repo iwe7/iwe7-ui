@@ -1,5 +1,9 @@
 import { NgModule } from '@angular/core';
-
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+export const NgModules = [
+  ReactiveFormsModule,
+  FormsModule
+];
 import { Iwe7BoxModule } from 'iwe7-box';
 import { Iwe7SquareModule } from 'iwe7-square';
 import { Iwe7SwiperModule } from 'iwe7-swiper';
@@ -24,7 +28,9 @@ import {
   MatCardModule,
   MatDividerModule,
   MatTabsModule,
-  MatToolbarModule
+  MatToolbarModule,
+  MatSidenavModule,
+  MatCheckboxModule
 } from '@angular/material';
 
 export const MaterialModules = [
@@ -37,7 +43,9 @@ export const MaterialModules = [
   MatCardModule,
   MatDividerModule,
   MatTabsModule,
-  MatToolbarModule
+  MatToolbarModule,
+  MatSidenavModule,
+  MatCheckboxModule
 ];
 
 import { ObserversModule } from '@angular/cdk/observers';
@@ -57,6 +65,7 @@ export const CDKModules = [
 
 @NgModule({
   exports: [
+    ...NgModules,
     ...Iwe7Modules,
     ...MaterialModules,
     ...CDKModules
