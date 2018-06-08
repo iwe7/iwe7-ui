@@ -1,5 +1,5 @@
-import { Iwe7LayoutModule } from './../../../iwe7-layout/src/lib/iwe7-layout.module';
-import { Iwe7HairlineModule } from './../../../iwe7-hairline/src/lib/iwe7-hairline.module';
+import { Iwe7LayoutModule } from 'iwe7-layout';
+import { Iwe7HairlineModule } from 'iwe7-hairline';
 import { NgModule } from '@angular/core';
 import { Iwe7BoxModule } from 'iwe7-box';
 import { Iwe7SquareModule } from 'iwe7-square';
