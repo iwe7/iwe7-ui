@@ -7,7 +7,6 @@ import { Iwe7SwiperModule } from 'iwe7-swiper';
 import { Iwe7FlexBoxModule } from 'iwe7-flex';
 import { Iwe7AbcModule } from 'iwe7-abc';
 import { Iwe7TabbarModule } from 'iwe7-tabbar';
-// import { Iwe7HairlineModule } from 'iwe7-hairline';
 
 export const Iwe7Modules = [
   Iwe7SwiperModule,
