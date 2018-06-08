@@ -1,3 +1,4 @@
+import { BetterCoreModule } from 'iwe7-better-scroll';
 import { Iwe7LayoutModule } from 'iwe7-layout';
 import { Iwe7HairlineModule } from 'iwe7-hairline';
 import { NgModule } from '@angular/core';
@@ -7,6 +8,7 @@ import { Iwe7SwiperModule } from 'iwe7-swiper';
 import { Iwe7FlexBoxModule } from 'iwe7-flex';
 import { Iwe7AbcModule } from 'iwe7-abc';
 import { Iwe7TabbarModule } from 'iwe7-tabbar';
+import { Iwe7HammerModule } from 'iwe7-hammer';
 
 export const Iwe7Modules = [
   Iwe7SwiperModule,
@@ -16,11 +18,17 @@ export const Iwe7Modules = [
   Iwe7BoxModule,
   Iwe7TabbarModule,
   Iwe7HairlineModule,
-  Iwe7LayoutModule
+  Iwe7LayoutModule,
+  Iwe7HammerModule,
+  BetterCoreModule
 ];
+
 // others
 
 @NgModule({
+  imports: [
+    ...Iwe7Modules
+  ],
   exports: [
     ...Iwe7Modules
   ]
